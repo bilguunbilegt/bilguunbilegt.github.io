@@ -1,0 +1,167 @@
+baseURL: https://bilguunbilegt.github.io/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: aafu theme
+  author: Darshan Baral
+  description: Website title
+  copyright: >-
+    powered by [hugo](https://gohugo.io/) & deployed on
+    [Cloudflare](https://www.cloudflare.com/)
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Bilguun Byambadorj"
+    tagline: Dr.
+    location: "Chicago, IL"
+    photo: profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "#"
+        title: LinkedIn
+      - icon: fab fa-stack-overflow
+        url: "#"
+        title: StackOverflow
+      - icon: fab fa-github
+        url: "#"
+        title: GitHub
+      - icon: fab fa-twitter
+        url: "#"
+        title: Twitter
+      - icon: fab fa-orcid
+        url: "#"
+        title: Orcid
+      - icon: ai ai-google-scholar
+        url: "#"
+        title: Google Scholar
+      - icon: fab fa-researchgate
+        url: "#"
+        title: ResearchGate
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    - item: publication
+    - item: project
+    - item: skill
+    - item: hobby
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: Hello! My name is Bilguun Byambadorj, and I am a data engineer with a strong background in both mathematics and computer science. My journey in the technical field has been diverse and enriching, spanning academia and industry. I graduated in 2011 with a Bachelor of Science in Mathematics and Computer Science. This dual degree laid a solid foundation for my analytical and problem-solving skills, which I further honed during my graduate studies. In 2014, I earned a Master of Science in Nuclear Science and Engineering, followed by a Ph.D. in the same field in 2017. During my time as a Ph.D. student, I conducted extensive research, which led me to a position as a Research Assistant at the University of Michigan from 2018 to 2019. My work at the university focused on cutting-edge research in nuclear science, contributing valuable insights and advancements in the field. In 2019, I transitioned from academia to the tech industry, joining Capital One as a Software Developer. This role marked the beginning of my career in software development, where I applied my technical expertise to develop robust and scalable software solutions. Currently, I am a Data Engineer at Capital One, a position I have held since 2020. In this role, I design, build, and maintain the infrastructure that enables the collection, storage, and analysis of large datasets. My work helps drive data-driven decision-making and innovation within the company. With a unique combination of academic rigor and industry experience, I am passionate about leveraging data to solve complex problems and create impactful solutions. Feel free to explore my portfolio to see some of the projects I have worked on, or reach out to me via [LinkedIn](https://linkedin.com/in/yourprofile) or [email](mailto:bilguunbyam@gmail.com).
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: Data Engineer
+        dates: 2019 - *Present*
+        company: Capital One
+        details: |1-
+          - Printed from desktop. Sent [emails](#).
+              - Called people *using* telephone.
+          - Drank water from office cooler.
+          - Ate donuts on people's birthdays.
+      - position: Research Assistant
+        dates: 2018 - 2019
+        company: University of Michigan
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: Ph.D. in Nuclear Science and Engineering
+        college: Idaho State University
+        dates: 2014 - 2017
+        thesis_title: "Simulating Approach-To-Critical Experiment on EBR-II Reactor"
+      - degree: M.S. in Nuclear Science and Engineering
+        college: Idaho State University
+        dates: 2011 - 2014
+        thesis_title: "Upgrade of Deterministic Multi-Energy Group Diffusion Reactor Physics Code"
+      - degree: B.S. in Mathematics and Computer Science
+        college: Dickinson State University
+        dates: 2007 - 2011
+  publication:
+    title: Publications
+    icon: fas fa-book
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - Journal Articles
+      - Proceedings
+    list:
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Journal Articles
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Journal Articles
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Proceedings
+  project:
+    title: Projects
+    icon: fas fa-project-diagram
+    list:
+      - title: Project 1
+        url: "#"
+        description: Description of the project
+      - title: Project 2
+        url: "#"
+        description: Description of the project
+      - title: Project 3
+        url: "#"
+        description: Description of the project
+      - title: Project 4
+        url: "#"
+        description: Description of the project
+  skill:
+    title: Skills
+    panelId: skill-panel
+    icon: fas fa-cogs
+    list:
+      - skill: "Skill 1, Skill 2"
+        skillrating: 90
+      - skill: Skill 3
+        skillrating: 80
+      - skill: Skill 4
+        skillrating: 50
+  hobby:
+    title: Hobbies
+    icon: fas fa-gamepad
+    list:
+      - hobby: Cooking
+      - hobby: Hiking
+      - hobby: Baking
